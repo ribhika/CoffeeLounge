@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Menu | Ribhika Coffee Lounge</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Dancing+Script:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="menu.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         MENU INTRO
+    ====================================================== -->
+
+    <div class="menu-intro" id="menuIntro">
+
+        <div class="intro-steam steam-one"></div>
+        <div class="intro-steam steam-two"></div>
+        <div class="intro-steam steam-three"></div>
+
+        <div class="intro-content">
+
+            <span class="intro-small">
+                RIBHIKA COFFEE LOUNGE
+            </span>
+
+            <h1>
+                The Art
+                <span>of Coffee</span>
+            </h1>
+
+            <div class="intro-line"></div>
+
+            <p>
+                Brewed differently.
+                Remembered forever.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         MAIN PAGE
+    ====================================================== -->
+
+    <div class="menu-page" id="menuPage">
+
+
+        <!-- NAVBAR -->
+
+        <header class="menu-navbar">
+
+            <a href="home.html" class="menu-brand">
+
+                <span class="brand-circle">
+                    R
+                </span>
+
+                <span>
+                    Ribhika
+                    <small>Coffee Lounge</small>
+                </span>
+
+            </a>
+
+
+            <nav class="menu-nav">
+
+                <a href="home.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="menu.html" class="active">Menu</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+
+                <a href="cart.html" class="nav-cart">
+                    Cart
+                    <span id="cartCount">0</span>
+                </a>
+
+            </nav>
+
+
+            <button class="menu-toggle" id="menuToggle">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+        </header>
+
+
+        <!-- =================================================
+             MENU HERO
+        ================================================== -->
+
+        <section class="menu-hero">
+
+            <div class="hero-giant-text">
+                MENU
+            </div>
+
+            <div class="hero-left">
+
+                <p class="eyebrow">
+                    A CUP OF SOMETHING SPECIAL
+                </p>
+
+                <h1>
+                    Taste the
+                    <em>difference.</em>
+                </h1>
+
+                <p class="hero-description">
+                    Every drink on our menu is created to
+                    tell a different story.
+                </p>
+
+            </div>
+
+
+            <div class="hero-coffee">
+
+                <div class="coffee-glow"></div>
+
+                <img
+                    src="images/signature_coffee_of_Ribhika_Coffee_Lounge.jpg"
+                    alt="Signature coffee at Ribhika Coffee Lounge"
+                >
+
+                <div class="floating-tag">
+                    <span>CRAFTED</span>
+                    <strong>WITH SOUL</strong>
+                </div>
+
+            </div>
+
+
+            <div class="hero-side-label">
+                BREW · SIP · REMEMBER
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             CATEGORY NAVIGATION
+        ================================================== -->
+
+        <section class="category-bar">
+
+            <button class="category-btn active" data-category="all">
+                All
+            </button>
+
+            <button class="category-btn" data-category="signature">
+                Signature
+            </button>
+
+            <button class="category-btn" data-category="hot">
+                Hot Coffee
+            </button>
+
+            <button class="category-btn" data-category="cold">
+                Cold Coffee
+            </button>
+
+            <button class="category-btn" data-category="dessert">
+                Sweet Pairings
+            </button>
+
+        </section>
+
+
+        <!-- =================================================
+             SIGNATURE COLLECTION
+        ================================================== -->
+
+        <section class="signature-section">
+
+            <div class="signature-heading">
+
+                <div>
+
+                    <span class="collection-number">
+                        01
+                    </span>
+
+                    <p class="eyebrow">
+                        EXCLUSIVELY AT RIBHIKA
+                    </p>
+
+                    <h2>
+                        The Signature
+                        <span>Collection</span>
+                    </h2>
+
+                </div>
+
+
+                <p class="signature-intro">
+                    Not found everywhere.
+                    Not made everywhere.
+                    These are the coffees that belong
+                    only to Ribhika Coffee Lounge.
+                </p>
+
+            </div>
+
+
+            <div class="signature-list">
+
+
+                <!-- SIGNATURE 01 -->
+
+                <article
+                    class="signature-card menu-item"
+                    data-category="signature"
+                    data-name="Ribhika Velvet"
+                    data-price="249"
+                >
+
+                    <div class="signature-number">
+                        01
+                    </div>
+
+                    <div class="signature-image">
+
+                        <img
+                            src="images/Ribhika_valvet_coffee.png"
+                            alt="Ribhika Velvet coffee"
+                        >
+
+                        <div class="exclusive-badge">
+                            RIBHIKA
+                            <strong>ORIGINAL</strong>
+                        </div>
+
+                    </div>
+
+
+                    <div class="signature-info">
+
+                        <span class="signature-label">
+                            THE HOUSE CREATION
+                        </span>
+
+                        <h3>
+                            Ribhika
+                            <em>Velvet</em>
+                        </h3>
+
+                        <p class="speciality">
+                            A luxurious house blend created
+                            exclusively for Ribhika Coffee Lounge.
+                        </p>
+
+                        <div class="flavour-notes">
+
+                            <span>Dark Cocoa</span>
+                            <span>Caramel</span>
+                            <span>Velvet Finish</span>
+
+                        </div>
+
+                        <div class="menu-bottom">
+
+                            <strong>
+                                ₹249
+                            </strong>
+
+                            <button
+                                class="add-cart"
+                                data-name="Ribhika Velvet"
+                                data-price="249"
+                            >
+                                Add to Cart
+                                <span>+</span>
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- SIGNATURE 02 -->
+
+                <article
+                    class="signature-card reverse menu-item"
+                    data-category="signature"
+                    data-name="Golden Ribhika Latte"
+                    data-price="279"
+                >
+
+                    <div class="signature-number">
+                        02
+                    </div>
+
+                    <div class="signature-image">
+
+                        <img
+                            src="images/Golden _ribhika_latte.png"
+                            alt="Golden Ribhika Latte"
+                        >
+
+                        <div class="exclusive-badge">
+                            SECRET
+                            <strong>RECIPE</strong>
+                        </div>
+
+                    </div>
+
+
+                    <div class="signature-info">
+
+                        <span class="signature-label">
+                            OUR GOLDEN SPECIAL
+                        </span>
+
+                        <h3>
+                            Golden
+                            <em>Ribhika</em>
+                        </h3>
+
+                        <p class="speciality">
+                            A creamy signature latte with
+                            our secret house flavour,
+                            finished with a delicate golden touch.
+                        </p>
+
+                        <div class="flavour-notes">
+
+                            <span>Silky Milk</span>
+                            <span>Caramel</span>
+                            <span>Golden Cream</span>
+
+                        </div>
+
+                        <div class="menu-bottom">
+
+                            <strong>
+                                ₹279
+                            </strong>
+
+                            <button
+                                class="add-cart"
+                                data-name="Golden Ribhika Latte"
+                                data-price="279"
+                            >
+                                Add to Cart
+                                <span>+</span>
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- SIGNATURE 03 -->
+
+                <article
+                    class="signature-card menu-item"
+                    data-category="signature"
+                    data-name="Midnight Ribhika"
+                    data-price="289"
+                >
+
+                    <div class="signature-number">
+                        03
+                    </div>
+
+                    <div class="signature-image">
+
+                        <img
+                            src="images/Midnight_ribhika_coffee.png"
+                            alt="Midnight Ribhika coffee"
+                        >
+
+                        <div class="exclusive-badge">
+                            AFTER
+                            <strong>DARK</strong>
+                        </div>
+
+                    </div>
+
+
+                    <div class="signature-info">
+
+                        <span class="signature-label">
+                            FOR THE NIGHT OWLS
+                        </span>
+
+                        <h3>
+                            Midnight
+                            <em>Ribhika</em>
+                        </h3>
+
+                        <p class="speciality">
+                            Deep, bold and mysterious.
+                            A rich coffee experience created
+                            for those who love intense flavour.
+                        </p>
+
+                        <div class="flavour-notes">
+
+                            <span>Bold Roast</span>
+                            <span>Dark Chocolate</span>
+                            <span>Smoky Finish</span>
+
+                        </div>
+
+                        <div class="menu-bottom">
+
+                            <strong>
+                                ₹289
+                            </strong>
+
+                            <button
+                                class="add-cart"
+                                data-name="Midnight Ribhika"
+                                data-price="289"
+                            >
+                                Add to Cart
+                                <span>+</span>
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             SIGNATURE STATEMENT
+        ================================================== -->
+
+        <section class="signature-statement">
+
+            <div class="statement-number">
+                02
+            </div>
+
+            <div class="statement-content">
+
+                <span>
+                    YOU WON'T FIND THESE
+                    JUST ANYWHERE.
+                </span>
+
+                <h2>
+                    Some flavours
+                    <br>
+                    belong to
+                    <em>Ribhika.</em>
+                </h2>
+
+                <p>
+                    Our signature coffees are more than drinks.
+                    They are recipes developed to give
+                    Ribhika its own flavour identity.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             REGULAR COFFEE MENU
+        ================================================== -->
+
+        <section class="regular-menu">
+
+            <div class="regular-heading">
+
+                <span class="collection-number">
+                    03
+                </span>
+
+                <p class="eyebrow">
+                    CLASSIC FAVOURITES
+                </p>
+
+                <h2>
+                    Coffee,
+                    <em>your way.</em>
+                </h2>
+
+            </div>
+
+
+            <div class="coffee-grid">
+
+
+                <!-- ITEM -->
+
+                <article
+                    class="coffee-card menu-item"
+                    data-category="hot"
+                    data-name="Classic Cappuccino"
+                    data-price="179"
+                >
+
+                    <div class="coffee-card-image">
+
+                        <img
+                            src="images/classic_cappuccino.jpg"
+                            alt="Classic Cappuccino"
+                        >
+
+                    </div>
+
+                    <div class="coffee-card-content">
+
+                        <span>
+                            HOT COFFEE
+                        </span>
+
+                        <h3>
+                            Classic
+                            <em>Cappuccino</em>
+                        </h3>
+
+                        <p>
+                            Rich espresso balanced with
+                            silky steamed milk.
+                        </p>
+
+                        <div class="card-bottom">
+
+                            <strong>₹179</strong>
+
+                            <button
+                                class="add-cart"
+                                data-name="Classic Cappuccino"
+                                data-price="179"
+                            >
+                                +
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article
+                    class="coffee-card menu-item"
+                    data-category="hot"
+                    data-name="Classic Latte"
+                    data-price="189"
+                >
+
+                    <div class="coffee-card-image">
+
+                        <img
+                            src="images/classic_latte.jpg"
+                            alt="Classic Latte"
+                        >
+
+                    </div>
+
+                    <div class="coffee-card-content">
+
+                        <span>
+                            HOT COFFEE
+                        </span>
+
+                        <h3>
+                            Classic
+                            <em>Latte</em>
+                        </h3>
+
+                        <p>
+                            Smooth espresso and creamy
+                            steamed milk.
+                        </p>
+
+                        <div class="card-bottom">
+
+                            <strong>₹189</strong>
+
+                            <button
+                                class="add-cart"
+                                data-name="Classic Latte"
+                                data-price="189"
+                            >
+                                +
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article
+                    class="coffee-card menu-item"
+                    data-category="hot"
+                    data-name="Mocha"
+                    data-price="199"
+                >
+
+                    <div class="coffee-card-image">
+
+                        <img
+                            src="images/mocha.jpg"
+                            alt="Mocha"
+                        >
+
+                    </div>
+
+                    <div class="coffee-card-content">
+
+                        <span>
+                            HOT COFFEE
+                        </span>
+
+                        <h3>
+                            Dark
+                            <em>Mocha</em>
+                        </h3>
+
+                        <p>
+                            Espresso blended with rich
+                            chocolate and creamy milk.
+                        </p>
+
+                        <div class="card-bottom">
+
+                            <strong>₹199</strong>
+
+                            <button
+                                class="add-cart"
+                                data-name="Dark Mocha"
+                                data-price="199"
+                            >
+                                +
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article
+                    class="coffee-card menu-item"
+                    data-category="cold"
+                    data-name="Iced Coffee"
+                    data-price="189"
+                >
+
+                    <div class="coffee-card-image">
+
+                        <img
+                            src="images/iced_coffee.jpg"
+                            alt="Iced Coffee"
+                        >
+
+                    </div>
+
+                    <div class="coffee-card-content">
+
+                        <span>
+                            COLD COFFEE
+                        </span>
+
+                        <h3>
+                            Iced
+                            <em>Classic</em>
+                        </h3>
+
+                        <p>
+                            Chilled coffee with a smooth
+                            refreshing finish.
+                        </p>
+
+                        <div class="card-bottom">
+
+                            <strong>₹189</strong>
+
+                            <button
+                                class="add-cart"
+                                data-name="Iced Classic"
+                                data-price="189"
+                            >
+                                +
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             SWEET PAIRINGS
+        ================================================== -->
+
+        <section class="pairing-section">
+
+            <div class="pairing-title">
+
+                <span class="collection-number">
+                    04
+                </span>
+
+                <p class="eyebrow">
+                    SOMETHING SWEET
+                </p>
+
+                <h2>
+                    Perfect
+                    <em>companions.</em>
+                </h2>
+
+            </div>
+
+
+            <div class="pairing-list">
+
+                <div
+                    class="pairing-item menu-item"
+                    data-category="dessert"
+                    data-name="Chocolate Cake"
+                    data-price="159"
+                >
+
+                    <span>01</span>
+
+                    <div>
+                        <h3>
+                            Chocolate Cake
+                        </h3>
+
+                        <p>
+                            Rich, soft and deeply chocolatey.
+                        </p>
+                    </div>
+
+                    <strong>
+                        ₹159
+                    </strong>
+
+                    <button
+                        class="add-cart"
+                        data-name="Chocolate Cake"
+                        data-price="159"
+                    >
+                        +
+                    </button>
+
+                </div>
+
+
+                <div
+                    class="pairing-item menu-item"
+                    data-category="dessert"
+                    data-name="Cinnamon Roll"
+                    data-price="139"
+                >
+
+                    <span>02</span>
+
+                    <div>
+                        <h3>
+                            Cinnamon Roll
+                        </h3>
+
+                        <p>
+                            Warm, soft and lightly spiced.
+                        </p>
+                    </div>
+
+                    <strong>
+                        ₹139
+                    </strong>
+
+                    <button
+                        class="add-cart"
+                        data-name="Cinnamon Roll"
+                        data-price="139"
+                    >
+                        +
+                    </button>
+
+                </div>
+
+
+                <div
+                    class="pairing-item menu-item"
+                    data-category="dessert"
+                    data-name="Brownie"
+                    data-price="129"
+                >
+
+                    <span>03</span>
+
+                    <div>
+                        <h3>
+                            House Brownie
+                        </h3>
+
+                        <p>
+                            Soft centre with a rich chocolate finish.
+                        </p>
+                    </div>
+
+                    <strong>
+                        ₹129
+                    </strong>
+
+                    <button
+                        class="add-cart"
+                        data-name="House Brownie"
+                        data-price="129"
+                    >
+                        +
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             FINAL CTA
+        ================================================== -->
+
+        <section class="menu-final">
+
+            <div class="final-big-word">
+                SIP
+            </div>
+
+            <div class="final-content">
+
+                <p>
+                    TAKE YOUR TIME.
+                </p>
+
+                <h2>
+                    Find your
+                    <em>favourite.</em>
+                </h2>
+
+                <a href="cart.html">
+                    View Your Cart
+                    <span>→</span>
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- FOOTER -->
+
+        <footer class="menu-footer">
+
+            <div class="footer-logo">
+                Ribhika
+                <small>Coffee Lounge</small>
+            </div>
+
+            <div class="footer-links">
+
+                <a href="home.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="menu.html">Menu</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+                <a href="cart.html">Cart</a>
+
+            </div>
+
+            <p>
+                © 2026 Ribhika Coffee Lounge
+            </p>
+
+        </footer>
+
+    </div>
+
+
+    <script src="menu.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Your Order | Ribhika Coffee Lounge</title>
+
+
+    <!-- GOOGLE FONTS -->
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Dancing+Script:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Prata&family=DM+Serif+Display:ital@0;1&display=swap"
+          rel="stylesheet">
+
+
+    <link rel="stylesheet"
+          href="cart.css">
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     CINEMATIC OPENING
+===================================================== -->
+
+<div class="cart-opening"
+     id="cartOpening">
+
+
+    <div class="opening-steam steam-one"></div>
+
+    <div class="opening-steam steam-two"></div>
+
+    <div class="opening-steam steam-three"></div>
+
+
+    <div class="opening-content">
+
+        <span>
+            YOUR TABLE AWAITS
+        </span>
+
+
+        <div class="opening-cup">
+
+            <div class="cup-coffee"></div>
+
+            <div class="cup-handle"></div>
+
+        </div>
+
+
+        <h1>
+
+            Your
+            <em>ritual.</em>
+
+        </h1>
+
+
+        <div class="opening-line"></div>
+
+
+        <p>
+            Ribhika Coffee Lounge
+        </p>
+
+    </div>
+
+</div>
+
+
+
+<!-- =====================================================
+     PAGE
+===================================================== -->
+
+<div class="cart-page"
+     id="cartPage">
+
+
+<!-- =====================================================
+     NAVIGATION
+===================================================== -->
+
+<header class="cart-navbar">
+
+
+    <a href="home.html"
+       class="cart-brand">
+
+
+        <div class="brand-symbol">
+            R
+        </div>
+
+
+        <div>
+
+            <strong>
+                Ribhika
+            </strong>
+
+            <small>
+                Coffee Lounge
+            </small>
+
+        </div>
+
+    </a>
+
+
+
+    <nav class="cart-nav">
+
+        <a href="home.html">
+            Home
+        </a>
+
+        <a href="about.html">
+            About
+        </a>
+
+        <a href="menu.html">
+            Menu
+        </a>
+
+        <a href="gallery.html">
+            Gallery
+        </a>
+
+        <a href="contact.html">
+            Contact
+        </a>
+
+        <a href="cart.html"
+           class="active">
+
+            Cart
+
+            <span id="navCartCount">
+                0
+            </span>
+
+        </a>
+
+    </nav>
+
+
+    <button class="cart-menu"
+            id="cartMenu">
+
+        <span></span>
+        <span></span>
+        <span></span>
+
+    </button>
+
+</header>
+
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section class="cart-hero">
+
+
+    <div class="hero-watermark">
+        CART
+    </div>
+
+
+    <div class="hero-number">
+        06
+    </div>
+
+
+    <div class="hero-content">
+
+
+        <span class="hero-label">
+            RIBHIKA / YOUR SELECTION
+        </span>
+
+
+        <h1>
+
+            Your
+            <br>
+
+            <em>coffee moment.</em>
+
+        </h1>
+
+
+        <p>
+
+            A few beautiful choices,
+            waiting to become
+            your next favourite moment.
+
+        </p>
+
+
+    </div>
+
+
+    <div class="hero-side-text">
+        CURATED WITH LOVE
+    </div>
+
+
+    <div class="hero-ring">
+
+        <span>
+            R
+        </span>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CART INTRO
+===================================================== -->
+
+<section class="cart-intro">
+
+
+    <div class="intro-small">
+        YOUR ORDER
+    </div>
+
+
+    <h2>
+
+        Selected
+        <em>for you.</em>
+
+    </h2>
+
+
+    <p>
+
+        Every cup tells a story.
+        Yours is about to begin.
+
+    </p>
+
+</section>
+
+
+
+<!-- =====================================================
+     MAIN CART AREA
+===================================================== -->
+
+<section class="cart-main">
+
+
+    <!-- =================================================
+         ITEMS
+    ================================================== -->
+
+    <div class="cart-items-area">
+
+
+        <div class="cart-heading">
+
+            <div>
+
+                <span>
+                    YOUR SELECTION
+                </span>
+
+                <h3>
+                    Order List
+                </h3>
+
+            </div>
+
+
+            <div class="item-count">
+
+                <span id="itemCount">
+                    0
+                </span>
+
+                ITEMS
+
+            </div>
+
+        </div>
+
+
+
+        <!-- ITEMS WILL BE CREATED BY JS -->
+
+        <div id="cartItems"
+             class="cart-items">
+
+
+        </div>
+
+
+
+        <!-- EMPTY CART -->
+
+        <div id="emptyCart"
+             class="empty-cart">
+
+
+            <div class="empty-cup">
+
+                ☕
+
+            </div>
+
+
+            <h3>
+                Your table is waiting.
+            </h3>
+
+
+            <p>
+                There is no coffee here yet.
+            </p>
+
+
+            <a href="menu.html">
+                Explore Our Coffee
+                <span>→</span>
+            </a>
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- =================================================
+         ORDER SUMMARY
+    ================================================== -->
+
+    <aside class="order-summary">
+
+
+        <div class="summary-number">
+            02
+        </div>
+
+
+        <span class="summary-label">
+            THE FINAL TOUCH
+        </span>
+
+
+        <h2>
+
+            Almost
+            <em>perfect.</em>
+
+        </h2>
+
+
+        <div class="summary-line"></div>
+
+
+
+        <!-- SUBTOTAL -->
+
+        <div class="price-row">
+
+            <span>
+                Subtotal
+            </span>
+
+            <strong id="subtotal">
+                ₹0
+            </strong>
+
+        </div>
+
+
+
+        <!-- TAX -->
+
+        <div class="price-row">
+
+            <span>
+                Cafe Tax
+            </span>
+
+            <strong id="tax">
+                ₹0
+            </strong>
+
+        </div>
+
+
+
+        <!-- SERVICE -->
+
+        <div class="price-row">
+
+            <span>
+                Service
+            </span>
+
+            <strong id="service">
+                ₹0
+            </strong>
+
+        </div>
+
+
+
+        <div class="summary-line"></div>
+
+
+
+        <!-- TOTAL -->
+
+        <div class="total-row">
+
+            <span>
+                TOTAL
+            </span>
+
+            <strong id="total">
+                ₹0
+            </strong>
+
+        </div>
+
+
+
+        <!-- CHECKOUT -->
+
+        <button class="checkout-button"
+                id="checkoutButton">
+
+
+            <span>
+                PROCEED TO CHECKOUT
+            </span>
+
+
+            <strong>
+                →
+            </strong>
+
+
+        </button>
+
+
+
+        <p class="checkout-note">
+
+            Your coffee is prepared fresh
+            especially for you.
+
+        </p>
+
+
+    </aside>
+
+</section>
+
+
+
+<!-- =====================================================
+     COFFEE MESSAGE
+===================================================== -->
+
+<section class="coffee-message">
+
+
+    <div class="message-background">
+        SIP
+    </div>
+
+
+    <div class="message-content">
+
+
+        <span>
+            A LITTLE RIBHIKA WISDOM
+        </span>
+
+
+        <h2>
+
+            Good coffee
+            <br>
+
+            deserves
+            <em>good company.</em>
+
+        </h2>
+
+
+        <p>
+
+            Stay a little longer.
+            Talk a little more.
+            Let the coffee get cold.
+
+        </p>
+
+
+        <div class="message-signature">
+            — Ribhika
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     BENEFITS
+===================================================== -->
+
+<section class="cart-benefits">
+
+
+    <div class="benefit">
+
+        <span>
+            01
+        </span>
+
+        <h3>
+            Freshly Made
+        </h3>
+
+        <p>
+            Every cup is prepared
+            fresh when you order.
+        </p>
+
+    </div>
+
+
+    <div class="benefit">
+
+        <span>
+            02
+        </span>
+
+        <h3>
+            Ribhika Special
+        </h3>
+
+        <p>
+            Signature creations
+            found only here.
+        </p>
+
+    </div>
+
+
+    <div class="benefit">
+
+        <span>
+            03
+        </span>
+
+        <h3>
+            Made With Love
+        </h3>
+
+        <p>
+            From our lounge
+            directly to you.
+        </p>
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =====================================================
+     FINAL CTA
+===================================================== -->
+
+<section class="cart-final">
+
+
+    <div class="final-bg">
+        COFFEE
+    </div>
+
+
+    <div class="final-content">
+
+
+        <span>
+            STILL THINKING?
+        </span>
+
+
+        <h2>
+
+            Maybe one
+            <em>more cup?</em>
+
+        </h2>
+
+
+        <a href="menu.html">
+
+            BACK TO MENU
+
+            <span>
+                ↗
+            </span>
+
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer class="cart-footer">
+
+
+    <div class="footer-logo">
+
+        <span>
+            R
+        </span>
+
+
+        <div>
+
+            Ribhika
+
+            <small>
+                Coffee Lounge
+            </small>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="footer-navigation">
+
+        <a href="home.html">
+            Home
+        </a>
+
+        <a href="about.html">
+            About
+        </a>
+
+        <a href="menu.html">
+            Menu
+        </a>
+
+        <a href="gallery.html">
+            Gallery
+        </a>
+
+        <a href="contact.html">
+            Contact
+        </a>
+
+    </div>
+
+
+    <p>
+        © 2026 Ribhika Coffee Lounge
+    </p>
+
+</footer>
+
+
+
+<!-- =====================================================
+     JAVASCRIPT
+===================================================== -->
+
+<script src="cart.js"></script>
+
+
+</div>
+
+</body>
+
+</html>
